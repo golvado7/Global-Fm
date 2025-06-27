@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World FM Radio</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f2f2; text-align: center; padding: 30px; }
+    h1 { color: #333; }
+    .station { margin: 20px auto; padding: 15px; width: 90%; max-width: 400px; background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    audio { width: 100%; outline: none; }
+    footer { margin-top: 40px; font-size: 0.9em; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>🌍 World FM Radio</h1>
+
+  <div class="station">
+    <h3>BBC World Service (UK)</h3>
+    <audio controls>
+      <source src="https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="station">
+    <h3>Radio France Internationale (RFI)</h3>
+    <audio controls>
+      <source src="http://live02.rfi.fr/rfimonde-64.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="station">
+    <h3>NPR (USA)</h3>
+    <audio controls>
+      <source src="https://npr-ice.streamguys1.com/live.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <footer>📡 Streaming FM stations via internet. No FM chip required.</footer>
+</body>
+</html>
